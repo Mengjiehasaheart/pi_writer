@@ -15,21 +15,21 @@ By: Mengjie Fan
 ### Canonical definitions
 
 - π via geometry and series; a classic fast series is Chudnovsky’s formula:
-  $$
-  \frac{1}{\pi} = \frac{12}{640320^{3/2}} \sum_{k=0}^{\infty} \frac{(-1)^k\,(6k)!\,(13591409+545140134k)}{(3k)!\,(k!)^3\,(640320)^{3k}}
-  $$
+$$
+\frac{1}{\pi} = \frac{12}{640320^{3/2}} \sum_{k=0}^{\infty} \frac{(-1)^k\,(6k)!\,(13591409+545140134k)}{(3k)!\,(k!)^3\,(640320)^{3k}}
+$$
 - e by the exponential series:
-  $$
-  e = \sum_{n=0}^{\infty} \frac{1}{n!}
-  $$
+$$
+e = \sum_{n=0}^{\infty} \frac{1}{n!}
+$$
 - ζ(2) and τ:
-  $$
-  \zeta(2)=\frac{\pi^2}{6},\qquad \tau=2\pi
-  $$
+$$
+\zeta(2)=\frac{\pi^2}{6},\qquad \tau=2\pi
+$$
 - φ and √2:
-  $$
-  \varphi=\frac{1+\sqrt{5}}{2},\qquad \sqrt{2}
-  $$
+$$
+\varphi=\frac{1+\sqrt{5}}{2},\qquad \sqrt{2}
+$$
 
 ### Exact digits in base b
 
@@ -42,9 +42,9 @@ The fractional expansion is $0.\,d_1d_2\dots d_N$ in base b. This is precise giv
 ### Information content and file size
 
 - Theoretical information bits for N base‑b digits:
-  $$
-  I \approx N\,\log_2 b
-  $$
+$$
+I \approx N\,\log_2 b
+$$
 - Practical file sizes depend on format:
   - Plain text UTF‑8: ~1 byte per character
   - JSON/CSV: text digits plus structural overhead
