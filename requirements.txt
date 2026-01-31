@@ -1,3 +1,6 @@
 streamlit
 mpmath
 sympy
+click
+cryptography
+pytest
